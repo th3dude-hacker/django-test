@@ -8,3 +8,7 @@ class A(object):
     
     def getMsg(self):
         return self.msg
+
+    def setMsg(self, msg):
+        self.msg = msg
+        return self.msg
